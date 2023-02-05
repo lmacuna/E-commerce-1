@@ -18,6 +18,9 @@ header{
     flex-direction: row;
   /*   background: rgb(16, 214, 115); */
 }
+#root{
+    width: 100%;
+}
 .escala:hover{
     transform: scale(1.2);
     background: white !important;
@@ -140,6 +143,13 @@ table{
     margin: auto;
     cursor: pointer;
 }
+.btn-rest:hover{
+    background: rgb(226, 108, 132);
+}
+.btn-rest:active{
+    background: white;
+    color: black;
+}
 
 .btn-vaciar{
     width: 80px;
@@ -161,4 +171,34 @@ table{
     background: #ccc;
     border:1px solid grey;
     color:black;
+}
+
+
+@media (max-width:1010px){
+    #main{
+        width: 55% !important;
+    }
+    .table-1{
+        margin-top: 10px;
+         width:100%;
+        border:2px solid blue;
+    }
+ 
+     .table-2-on{
+        border:5px solid rgb(16, 214, 115);
+        width: 40% !important;
+     }
+    #table>tbody>tr>td{
+        font-size: 10px;
+      
+    }
+    h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:920px){
+    header>img{
+        display: none;
+    }
 }

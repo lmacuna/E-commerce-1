@@ -20,7 +20,7 @@ const vistaEcom = (result) => {
 
     result.forEach(e => {
         document.querySelector("#root").innerHTML += `
-        <tr class="escala" style=" transition: all 0.5s;;width:18%;display:inline-block;height:250px;border:1px solid grey;font-size:12px;background:darkslategrey;color:white;padding:10px;margin:15px">
+        <tr class="escala" style=" transition: all 0.5s;width:18%;display:inline-block;height:220px;border:1px solid grey;font-size:12px;background:darkslategrey;color:white;padding:10px;margin:15px">
         <td style="display:block"><img style="width:100%;height:120px " src=${e.img} alt="imagen"></img></td>
         <td  style="display:block;margin-top:20px !important">COD.${e.id}</td>
         <td  style="display:block">${e.art}</td>
@@ -80,7 +80,9 @@ function agregarCarro(id) {
                     console.log(carro)
                 }
 
-
+                setTimeout(() => {
+                    window.location.href = "#header"
+                }, 500)
             } else {
                 var objetoCarro = {
                     id: re.id,
@@ -91,6 +93,9 @@ function agregarCarro(id) {
                 }
                 carro.push(objetoCarro)
                 console.log(carro)
+                setTimeout(() => {
+                    window.location.href = "#header"
+                }, 500)
             }
             return (console.log(carro), vistaCarro(carro), localStorage.setItem("carro", JSON.stringify(carro)));
         } else if (result.isDenied) {
@@ -101,8 +106,12 @@ function agregarCarro(id) {
                 showCancelButton: false,
                 showConfirmButton: false,
             })
+            
         }
+
     })
+
+
 }
 
 
@@ -271,7 +280,7 @@ const restarCarro = (id) => {
 
 }
 
-const limpiar=()=>{
+const limpiar = () => {
     document.querySelector("#carro").innerHTML = ""
     total = 0
     document.querySelector("#total").innerHTML = ""
