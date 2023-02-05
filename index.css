@@ -129,3 +129,9 @@ table{
     border:none;
     margin: auto;
 }
+
+
+.btn-vaciar:hover{
+    
+    background: rgb(123,123,123);
+}
