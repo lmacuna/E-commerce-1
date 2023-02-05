@@ -130,8 +130,24 @@ table{
     margin: auto;
 }
 
-
+.btn-vaciar{
+    width: 80px;
+    height:25px;
+    float:left !important;
+    cursor: pointer;
+    border:none;
+    border-radius: 4px;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
 .btn-vaciar:hover{
     
     background: rgb(123,123,123);
+}
+.btn-vaciar:active{
+    background: #ccc;
+    border:1px solid grey;
+    color:black;
 }
