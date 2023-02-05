@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /*  background:rgb(0, 128, 43);  */
+ /*   background: rgb(123, 123, 123); */
+   
+}
+header{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  /*   background: rgb(16, 214, 115); */
+}
+.escala:hover{
+    transform: scale(1.2);
+    background: white !important;
+    color:black !important;
+    border-radius: 11px;
+    border:1px solid grey;
+    transition: all 0.5s;
+}
+h1{
+    color:darkslategrey;
+    font-style: oblique;
+    margin-right: 30px;
+    text-shadow: 0 0 1px black,
+    0 0 2px black,
+    0 0 4px black;
+    width: 40%;
+    margin-left: 30px !important;
+}
+.table-1{
+    width:100%;
+    height: auto;
+    margin-right: auto;
+   /*  border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+     text-align: center;
+    /* columns: 6; */
+   /*  background: white; */
+    opacity: 0.9;
+}
+
+table{
+    display: none;
+    
+}
+.table-2-on{
+    width: 33% !important;
+/*     border:7px solid rgb(0, 128, 43); */
+    border:10px solid rgb(16, 214, 115); 
+    height: auto;
+    background: white;
+   /*   opacity: 0.7;   */
+   font-family:verdana;
+   font-weight: bold;
+    margin-top: 50px !important;
+    margin-right: 10px !important;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-collapse: collapse;
+    float: right;
+    
+}
+#table>tbody>tr>td{
+    font-size: 12px;
+    width: 25%;
+    border:2px solid rgb(16, 214, 115);
+    padding: 5px;
+    box-sizing: border-box;
+}
+.table-2>tbody>tr>{
+    width: 100%;
+}
+.tr{
+    font-size: 14px !important;
+    border:2px solid rgb(16, 214, 115);
+   
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    width: 65%;
+    height: auto;
+
+}
+
+#carro{
+    width: 100%;
+    height: auto;
+    border:2px solid darkred;
+    text-align: center;
+    
+}
+
+.btn-add{
+    width:20px;
+    height: 20px;
+    background: limegreen;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin: auto;
+}
+.btn-rest{
+    width:20px;
+    height: 20px;
+    background: crimson;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border:none;
+    margin: auto;
+}
