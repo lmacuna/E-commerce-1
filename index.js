@@ -145,7 +145,7 @@ const vistaCarro = (carro) => {
 
         }
         document.querySelector("#total").innerHTML = ""
-        document.querySelector("#total").innerHTML = `<div style="width:159px;border-radius:11px;height:30px;background:rgb(121, 235, 216);color:black;display:flex;justify-content:center;align-items:center;flex-direction:row">$${total}</div>`
+        document.querySelector("#total").innerHTML = `<div style="width:100%;border-radius:11px;height:30px;background:rgb(121, 235, 216);color:black;display:flex;justify-content:center;align-items:center;flex-direction:row">$${total}</div>`
     } else {
         document.querySelector("#carro").innerHTML = ""
     }
