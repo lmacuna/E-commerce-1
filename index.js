@@ -2,7 +2,7 @@ var cerrar = false;
 const getData = async () => {
 
 
-    var res = await fetch('http://localhost:5500/mock/data.json', {
+    var res = await fetch('mock/data.json', {
         method: 'GET'
     })
 
