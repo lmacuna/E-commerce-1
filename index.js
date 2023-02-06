@@ -128,10 +128,10 @@ const vistaCarro = (carro) => {
 
 
             document.querySelector("#carro").innerHTML += `<tr>
-        <td>${c.id}</td>
-        <td>${c.desc}</td>
-        <td>${c.cantidad}</td>
-        <td>$${c.monto}</td>
+        <td class="id">${c.id}</td>
+        <td class="desc">${c.desc}</td>
+        <td class="cant">${c.cantidad}</td>
+        <td class="monto">$${c.monto}</td>
         <td style="width:40px !important"><button class="btn-add" onclick="agregarCarro(id)" id=${c.id}>+</button></td>
         <td style="width:40px !important"><button class="btn-rest" onclick="restarCarro(id)" id=${c.id}>-</button></td>
         </tr>

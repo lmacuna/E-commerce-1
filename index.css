@@ -273,4 +273,31 @@ table{
 }
 }
 
+@media (max-width:620px){
+    .id{
+        width:5% !important;
+        text-align: center;
+        margin: auto;
+    }
+    .desc{
+        width: 10% !important;
+        text-align: center;
+        margin:auto;
+    }
+    .monto{
+        width:10% !important;
+        text-align: center;
+        margin:auto;
+    }
+    .cant{
+        width: 5% !important;
+        text-align: center;
+        margin:auto;
+    }
+    #table>tbody>tr{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
 
