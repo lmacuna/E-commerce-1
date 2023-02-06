@@ -259,19 +259,27 @@ table{
    #table{
     width: 40%;
    }
-   .table-1{
+   #main{
     width: 55%;
+   }
+   .table-1{
+    width: 100%;
     
    }
    .table-1>tbody>tr{
-    width:90px !important;
+    width:24% !important;
     height: 100px;
-    display: inline-block !important;
-}
-#table>thead>tr>th{
+   /*  display: inline-block !important */
+   }
+   h1{
+    font-size: 22px;
+   }
+   #table>thead>tr>th{
     display: none;
 }
 }
+
+
 
 @media (max-width:620px){
     .id{
@@ -300,4 +308,15 @@ table{
     }
 }
 
+
+@media (max-width:540px){
+    h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:440px){
+    h1{
+        font-size: 16px;
+    }
+}
 
