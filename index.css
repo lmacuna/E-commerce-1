@@ -205,6 +205,72 @@ table{
         width: 100%;
         height: auto;
     }
+    .btn-add{
+        font-size: 9px;
+        width: 12px;
+        height: 12px;
+    }
+    .btn-rest{
+        font-size: 9px;
+        width: 12px;
+        height: 12px;
+    }
+}
+@media (max-width:610px){
+
+    #main{
+        width: 50%;
+        display: block;
+    }
+    .table-1{
+        width:100% !important;
+    }
+    #table{
+        width: 50%;
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+     
+    }
+    .table-2-on>tbody>tr{
+        display: inline-block !important;
+    }
+    .table-1>tbody>tr{
+        width:80px !important;
+        height: 100px;
+        display: inline-block !important;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .btn-add{
+        font-size: 7px;
+        width: 10px;
+        height: 10px;
+    }
+    .btn-rest{
+        font-size: 7px;
+        width: 10px;
+        height: 10px;
+    }
+  
+}
+@media (max-width:720px){
+   #table{
+    width: 40%;
+   }
+   .table-1{
+    width: 55%;
+    
+   }
+   .table-1>tbody>tr{
+    width:90px !important;
+    height: 100px;
+    display: inline-block !important;
+}
+#table>thead>tr{
+    display: none;
+}
 }
 
 
