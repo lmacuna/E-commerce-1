@@ -268,7 +268,7 @@ table{
     height: 100px;
     display: inline-block !important;
 }
-#table>thead>tr{
+#table>thead>tr>th{
     display: none;
 }
 }
